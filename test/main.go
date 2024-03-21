@@ -1,14 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"piscine"
-)
+import "piscine"
 
 func main() {
-	fmt.Println(piscine.AtoiBase("125", "0123456789"))
-	fmt.Println(piscine.AtoiBase("1111101", "01"))
-	fmt.Println(piscine.AtoiBase("7D", "0123456789ABCDEF"))
-	fmt.Println(piscine.AtoiBase("uoi", "choumi"))
-	fmt.Println(piscine.AtoiBase("bbbbbab", "-ab"))
+	piscine.PrintMemory([10]byte{'h', 'e', 'l', 'l', 'o', 216, 21, '*'})
 }
